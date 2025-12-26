@@ -44,3 +44,36 @@ const c1; // declartion must be initialize
 console.log(c1);
 c1=15;
 */
+
+
+// function hoisting
+//case 1
+test();
+
+function test() {
+    console.log('hoisting test function ');
+}
+
+/* JS engine convert like this into hoisting
+function test() {
+    console.log('hoisting test function ');
+}
+test();
+*/
+
+//case 2
+
+test();
+var test = function () {
+    console.log('test call');    
+}
+
+
+/*
+//after JS converting into hoisting 
+var test;
+test();
+test = function () {
+console.log('test call')
+}
+ */

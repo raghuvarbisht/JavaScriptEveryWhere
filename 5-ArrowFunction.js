@@ -31,3 +31,6 @@ console.log(obj.sayGreet());
 // to fix arrow function we need to add non arrow function as parent of arrow function
 // {name: 'Raghuvar', age: '35', sayhello: ƒ, sayBye: ƒ, sayGreet: ƒ}
 //  say greet
+
+
+
