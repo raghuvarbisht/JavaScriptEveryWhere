@@ -45,7 +45,7 @@ function increment() {
     let count = 0;
     function inner() {
         count = count + 1;       
-       return count; return count; 
+       return count; 
     }
     return inner;
 }
