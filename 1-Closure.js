@@ -1,5 +1,20 @@
 /*
-what is 
+Closure 
+
+A closure is a function that remembers and can access variables from 
+its outer (lexical) scope even after the outer function has finished executing.
+
+🔹 Key Points to Mention in Interviews
+- Created automatically when a function is defined
+- Based on lexical scoping
+- Stores references, not copies, of variables
+- Keeps outer variables alive in memory
+
+One-Line Use Cases -
+- Data hiding / encapsulation
+- Callbacks & async code
+- Function factories
+- Memoization
 
 */
 

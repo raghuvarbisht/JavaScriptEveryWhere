@@ -15,7 +15,7 @@ console.log(flatternArray(arr));
 
 
 
-
+// flat array of n dimesional
 const mdArr = [1,2,[3,4,[5,6]]];
 
 function flatternArrayNew(arr) {
